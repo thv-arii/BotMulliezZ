@@ -79,7 +79,7 @@ printQRInTerminal: true,
 logger: pino({ level: 'silent' }),
 msgRetryCounterMap,
 auth: state,
-browser: ['MysticBot','Safari','9.7.0'],
+browser: ['BotMulliez','Safari','9.7.0'],
 getMessage: async (key) => (
 optss.store.loadMessage(/** @type {string} */(key.remoteJid), key.id) || 
 optss.store.loadMessage(/** @type {string} */(key.id)) || {}
